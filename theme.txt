@@ -57,7 +57,9 @@ plotting.graphcolor.06 = #00CCFF
 plotting.graphcolor.07 = #000000
 
 # GUI - LINESTATUS   
-linestatus.color = #ffffff
+# linestatus.color = #ffffff
+# Arduino Due (Programming Port) on /dev/ttyACM0 colored in yellow (was #ffffff white):
+linestatus.color = #E0E022
 linestatus.bgcolor = #006468
 
 # EDITOR - DETAILS
@@ -171,5 +173,5 @@ editor.comment2.style = #95a5a6,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
-linestatus.font	   = SansSerif,plain,10
+linestatus.font	   = SansSerif,plain,16
 linestatus.height  = 20
