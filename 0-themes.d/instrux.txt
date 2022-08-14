@@ -1,0 +1,28 @@
+commit 972d2eec9b9de44d43a208e6f044596b1a274c63
+Date:   Sun Aug 14 20:17:57 2022 +0000
+
+Modified the commit message as there was a small error
+
+(forgot to prepend ./syntax to ./syntax/default.xml).
+
+    packaged simple themes - DEMO only
+    
+      just has different // comment color, to show
+      format of this .zip file.
+    
+      using:
+        cd ./this_theme
+        ls ./theme.txt          # verify theme.txt is in current directory
+        ls ./syntax             # verify there's a syntax directory
+        ls ./syntax/default.xml # verify there's a ./syntax/default.xml file
+    
+        zip -r ../that.zip *  # create a .zip one level up
+                              # using contents of current directory,
+                              # recursively
+    
+            new file:   brown_comments.zip
+            new file:   cyan_comments_aa.zip
+            new file:   yellow_comments.zip
+    
+    On branch dvlp-aa
+
