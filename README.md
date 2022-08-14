@@ -1,6 +1,8 @@
-Sun 14 Aug 16:06:36 UTC 2022
+Sun 14 Aug 21:41:12 UTC 2022
 
 Arduino IDE themes
+
+includes dracula theme - see distrib
 
 The themes are .zip files placed in the sketchbook, under
 a new directory you create (named 'theme').
