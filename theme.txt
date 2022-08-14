@@ -1,4 +1,7 @@
 # Sun 14 Aug 13:38:42 UTC 2022
+# Q: what element highlights numeric coefficients? ex. uint16_t cswitch = 0; want that zero in bright cyan
+# Q: since that wasn't found - what was editor.operator.style?
+# A: (brief) just as expected. CHANGED to the base color.
 
 #FUNCTIONS COLOR 			#D35400 - ORANGE			KEYWORD1
 #FUNCTIONS COLOR			#D35400 - ORANGE			KEYWORD2
@@ -119,8 +122,9 @@ editor.variable.style = #00979C,plain
 # editor.reserved_word_2.style = #009700,plain
 # Q: and now is a rose color; test is what element is this:
 # A: volatile uint32_t now in a shade of rose (both words) and is usually green.
-# see commit comment
-editor.reserved_word_2.style = #EE8193,plain
+# editor.reserved_word_2.style = #EE8193,plain
+# reverted to earlier custom TrueGreen:
+editor.reserved_word_2.style = #009700,plain
 
 editor.literal_boolean.style = #00979C,plain
 editor.literal_char.style = #00979C,plain
@@ -132,14 +136,25 @@ editor.literal_string_double_quote.style = #00B2B2,plain
 # answer: yes, sort-of, took #00B2B2 and made it #00B0B0 (IDE may be dropping bits on purpose)
 
 # editor.preprocessor.style = #5E6D03,plain
+# out of band comment: remembering this is a pound-ifdef cpp element coloring and is in slightly reddish blue can find the exact name in the gpick color picker tool (that Debian Bullseye offers).
 editor.preprocessor.style = #5F5FDD,plain
 
 # http://www.arduino.cc/
 editor.url.style = #0000ff,underlined
 
 # e.g. + - = /
-editor.operator.style = #434f54,plain
-
+# editor.operator.style = #434f54,plain
+# Q: wild test - what does this one color?
+# editor.reserved_word_2.style = #EE8193,plain
+# editor.operator.style = #434f54,plain
+# A: (provis) rose right now.
+# editor.operator.style = #EE8193,plain
+# A: (final) the equals sign, especially.  Other operators += && all that
+# R: recommend - color exactly the same as the word before it on line 60 status_wait (var name).
+# N: b2b2 too bright.
+# I: editor.fgcolor = #00777C  appears to be the one to match.
+editor.operator.style = #00777C,plain
+# Z: result: now it looks just right: 60 word status_wait = false; with 'status_wait =' in same dull cyan (base color of entire editor).
 
 # ?? maybe this is for words followed by a colon
 # like in case statements or goto
