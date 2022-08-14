@@ -119,6 +119,7 @@ editor.variable.style = #00979C,plain
 # editor.reserved_word_2.style = #009700,plain
 # Q: and now is a rose color; test is what element is this:
 # A: volatile uint32_t now in a shade of rose (both words) and is usually green.
+# see commit comment
 editor.reserved_word_2.style = #EE8193,plain
 
 editor.literal_boolean.style = #00979C,plain
