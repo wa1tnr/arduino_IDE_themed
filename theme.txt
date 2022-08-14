@@ -162,7 +162,11 @@ editor.label.style = #7e7e7e,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #434F54,plain
+# editor.comment1.style = #434F54,plain
+# the // two slash comment color:
+# let's borrow edtor.lteral_strng_duble_qute.stle = #00B2B2,plain
+# intensity increase (brightness) = #00CDCD,plain
+editor.comment1.style = #00CDCD,plain
 editor.comment2.style = #95a5a6,plain
 
 
