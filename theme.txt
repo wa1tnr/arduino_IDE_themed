@@ -124,6 +124,7 @@ editor.literal_char.style = #00979C,plain
 # cyan: quoted include filename incl. the quotation marks:
 editor.literal_string_double_quote.style = #00B2B2,plain
 # test: can the color picker gpick find the correct tuple for this shade of cyan?
+# answer: yes, sort-of, took #00B2B2 and made it #00B0B0 (IDE may be dropping bits on purpose)
 
 # editor.preprocessor.style = #5E6D03,plain
 editor.preprocessor.style = #5F5FDD,plain
