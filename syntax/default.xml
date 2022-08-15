@@ -35,7 +35,7 @@
    <!-- Syntax tokens. -->
    <tokenStyles>
       <style token="IDENTIFIER" fg="E0E022"/>
-      <style token="DATA_TYPE" fg="008080" bold="true"/>
+      <style token="DATA_TYPE" fg="00E000" bold="true"/>
       <style token="FUNCTION" fg="cc6600"/>
       <style token="VARIABLE" fg="cc6600" bold="true"/>
       <style token="RESERVED_WORD" fg="024f8b" bold="true"/>
@@ -49,13 +49,12 @@
       <style token="COMMENT_KEYWORD" fg="7F9FBF" bold="true"/>
       <style token="COMMENT_MARKUP" fg="7f7f9f"/>
       <style token="LITERAL_BOOLEAN" fg="E0E022" bold="false"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="E0E022"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="00CDCD"/>
       <style token="LITERAL_NUMBER_FLOAT" fg="E0E022"/>
-      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="E0E022"/>
+      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="00CDCD"/>
       <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="006699"/>
       <style token="LITERAL_CHAR" fg="006699"/>
       <style token="LITERAL_BACKQUOTE" fg="E0E022"/>
-
       <style token="OPERATOR" fg="804040"/>
       <style token="REGEX" fg="008040"/>
       <style token="SEPARATOR" fg="E0E022"/>
