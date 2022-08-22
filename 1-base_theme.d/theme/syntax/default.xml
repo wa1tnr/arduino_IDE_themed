@@ -57,7 +57,8 @@
       <style token="LITERAL_BACKQUOTE" fg="E0E022"/>
       <style token="OPERATOR" fg="804040"/>
       <style token="REGEX" fg="008040"/>
-      <style token="SEPARATOR" fg="E0E022"/>
+<!-- separator is parens curly braces and the like was E0E022 now 009B9B per editor fgcolor -->
+      <style token="SEPARATOR" fg="009B9B"/>
       <style token="WHITESPACE" fg="E0E022"/>
       <style token="ERROR_IDENTIFIER" fg="E0E022"/>
       <style token="ERROR_NUMBER_FORMAT" fg="E0E022"/>
