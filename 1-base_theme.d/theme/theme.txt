@@ -1,3 +1,6 @@
+# Mon 22 Aug 13:30:27 UTC 2022
+# Q: how to change highlight which is opaque yellow dim contrast with cyan comments.
+
 # Mon 15 Aug 01:24:35 UTC 2022
 # good-if in the bag. This is the next in series.
 # Q: Serial.print in bright cyan .. where.
@@ -95,7 +98,20 @@ editor.caret.color = #22CDCD
 editor.external.bgcolor = #c8d2dc
 
 # selection color
-editor.selection.color = #ffcc00
+# editor.selection.color = #ffcc00
+# this 'works' - changes mouse swipe background to cyan-ish (from a yellow):
+# editor.selection.color = #00ffcc
+# very low cyan shading from a black:
+# editor.selection.color = #002222
+# 50% grey-cyan (very opaque, no useful contrast):
+# editor.selection.color = #007F7F
+# very low contrast but useful:
+# editor.selection.color = #003F3F
+# sickly green-grey (nope):
+# editor.selection.color = #3F3F00
+# this is pretty good but fg is a nope:
+#     (later) keep this one, fix foregrounds as required:
+editor.selection.color = #3F0000
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
