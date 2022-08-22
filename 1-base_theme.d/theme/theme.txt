@@ -75,7 +75,15 @@ linestatus.bgcolor = #006468
 
 # editor.fgcolor = #000000
 # good match to rvim as a variable name in low cyan #00777C:
-editor.fgcolor = #00777C
+# editor.fgcolor = #00777C
+# bright cyan washes out differences:
+# editor.fgcolor = #00C2C2
+# this looks good but causes low contrast and font fill-in issues:
+# editor.fgcolor = #00777C
+# decided to pick it up just a bit more, but still distinguished from, for example, comments, which are brighter:
+# editor.fgcolor = #008383
+# trying now for just a bit brighter, base font color:
+editor.fgcolor = #009B9B
 
 # editor.bgcolor = #ffffff
 editor.bgcolor = #000000
@@ -175,7 +183,9 @@ editor.variable.style = #00979C,plain
 # A: volatile uint32_t now in a shade of rose (both words) and is usually green.
 # editor.reserved_word_2.style = #EE8193,plain
 # reverted to earlier custom TrueGreen:
-editor.reserved_word_2.style = #009700,plain
+# okay this one is a previous gain and is medium green:
+# editor.reserved_word_2.style = #009700,plain
+editor.reserved_word_2.style = #00FF00,plain
 
 editor.literal_boolean.style = #00B2B2,plain
 editor.literal_char.style = #00B2B2,plain
@@ -221,8 +231,14 @@ editor.label.style = #7e7e7e,bold
 
 # made magenta for identification: # editor.comment1.style = #E022E0,plain
 
-# back to a bright cyan:
-editor.comment1.style = #00CDCD,plain
+# back to a bright cyan, two slash comments:
+# editor.comment1.style = #00CDCD,plain
+
+# IN YELLOW - use elsewhere (another style with yellow comments) two slash comments:
+# editor.comment1.style = #E7E700,plain
+# trying for rather bright cyan two slash comments:
+editor.comment1.style = #00E7E7,plain
+
 editor.comment2.style = #95a5a6,plain
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
