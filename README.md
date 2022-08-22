@@ -1,6 +1,12 @@
-Sun 14 Aug 21:41:12 UTC 2022
+Mon 22 Aug 16:02:44 UTC 2022
 
 Arduino IDE themes
+
+progress: solid themes with three comment color styles
+
+upstream:
+
+  https://github.com/arduino/Arduino/tree/master/build/shared/lib/theme
 
 includes dracula theme - see distrib
 
